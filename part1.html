@@ -6,21 +6,74 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+
+	<link rel="stylesheet" href="screen.css">
+
 	<title>Document</title>
+	<header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+  
+  <!-- Logo text or image -->
+  <div class="flex items-center justify-between mb-4 md:mb-0">
+    <h1 class="leading-none text-2xl text-grey-darkest">
+      <a class="no-underline text-grey-darkest hover:text-black" href="#">
+        CSUN ASA
+      </a>
+    </h1>
+
+    <a class="text-black hover:text-orange md:hidden" href="#">
+      <i class="fa fa-2x fa-bars"></i>
+    </a>
+  </div>
+  <!-- END Logo text or image -->
+  
+  
+  
+  <!-- Global navigation -->
+  <nav>
+     <ul class="list-reset md:flex md:items-center">
+     <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="index.html">
+          Home
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part1.html">
+          General Body Meeting
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part2.html">
+          Dinner Night
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part3.html">
+          Community
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- END Global navigation -->
+
+</header>
 </head>
 <body>
-	<header class="bg-header flex items-center justify-center h-screen pb-12">
-  <div class="bg-white font-serif mx-4 p-4 text-center md:p-8">
+<header class="bg-header3 flex items-center justify-center h-screen pb-12">
+  <div class="bg-black font-serif mx-4 p-4 text-center md:p-8">
     <p class="italic text-sm">
-      November 1, 2019
+      
     </p>
-    <h1 class="text-5xl uppercase">
-      Article Title
+    <h1 class="text-5xl uppercase text-white">
+      General Body Meeting
     </h1>
     <p class="text-lg">
-      Author Name
+      
     </p>
   </div>
+</header>
 </header>
 
 <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
@@ -38,10 +91,10 @@
   <p class="mb-4 text-lg">Tempore, quaerat accusamus ad nostrum maiores numquam, ea nam sed reiciendis, eveniet perspiciatis. Eos nulla vel consectetur quo nesciunt aspernatur sint nemo cumque optio mollitia, veritatis, tenetur quibusdam eum natus.</p>
 </div>
 
-<div class="bg-quote container flex items-center justify-center h-screen mx-auto">
+<div class="bg-quote2 container flex items-center justify-center h-screen mx-auto">
   <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
     <p class="font-bold italic text-3xl">
-      &ldquo;Large, bold pull quote. Hats. Very good.&rdquo;
+      &ldquo; I've always wanted Armenian friends, but I've never known where to find them.&rdquo;
     </p>
   </blockquote>
 </div>
@@ -53,29 +106,101 @@
   <p class="mb-4 text-lg">Mollitia temporibus maxime placeat culpa distinctio possimus, praesentium, assumenda quasi eum voluptate magni aspernatur aperiam. Eius voluptates rem eum, facilis inventore hic provident pariatur nam non! At odit iste cum.</p>
 </div>
 
-	<h1>
-		Part 1
-	</h1>
+<div class="container my-12 mx-auto px-4 md:px-12">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea, perspiciatis earum autem explicabo itaque, iste repudiandae placeat! Libero, minus? Ullam, nisi, atque. Velit asperiores commodi iusto, voluptatum, eaque sed!
-	</p>
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="part1.html">Part One</a>
-			</li>
-			<li>
-				<a href="part2.html">Part Two</a>
-			</li>
-			<li>
-				<a href="part3.html">Part Three</a>
-			</li>
-		</ul>
-	</nav>
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="#">
+                            Article Title
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+           
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="#">
+                            Article Title
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+           
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="#">
+                            Article Title
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+               
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        
+
+    </div>
+</div>
 	
 </body>
 </html>
