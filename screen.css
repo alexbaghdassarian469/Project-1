@@ -1,9 +1,9 @@
 /*Load custom fonts */
 .font-seriff{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Merriweather', serif;
 }
 .font-sans{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .bg-header {
@@ -82,5 +82,24 @@
     z-index: 99;
   }
 }
+var colors = {
+  'transparent': 'transparent',
+
+  'white-darkest': '#E0CBA8',
+  'grey-darkest': '#364349',
+  
+  // ...
+}
+
+module.exports = {
+  colors: colors,
+  textColors: colors,
+  backgroundColors: colors,
+  borderColors: Object.assign({ default: colors['black'] }, colors),
+
+  // ...
+}
+
+
 
 
