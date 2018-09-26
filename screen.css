@@ -1,5 +1,5 @@
 /*Load custom fonts */
-.font-seriff{
+.font-serif{
   font-family: 'Merriweather', serif;
 }
 .font-sans{
@@ -14,43 +14,43 @@
 .bg-header2 {
   background: url(images/ASA2.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-header3 {
   background: url(images/ASA3.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-header4 {
   background: url(images/ASA4.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-quote {
   background: url(images/ASA1.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 80% 80%;
+  background-size: cover;
 }
 
 .bg-quote2 {
   background: url(images/ASA5.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-quote3 {
   background: url(images/ASA6.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-quote4 {
   background: url(images/ASA7.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .video-title {
